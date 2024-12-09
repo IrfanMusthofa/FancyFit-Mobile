@@ -3,7 +3,7 @@
 
 First, make sure you have Node.js v22.11.0 installed
 
-ThenInstall all dependencies by running this command:
+Then Install all dependencies by running this command:
 
 ```bash
 npm install
