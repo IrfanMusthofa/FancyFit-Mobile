@@ -46,39 +46,6 @@ export default function Chest() {
             4. Exhale as you push back to the starting position.
           </Text>
         </View>
-
-        <View className="mb-8">
-          <Text className="text-2xl font-bold text-white text-center shadow-md mb-4">
-            Incline Push Ups
-          </Text>
-          <Text className="text-xl font-semibold text-white text-center shadow-md mb-4">
-            Difficulty: Beginner
-          </Text>
-          <Image
-            source={require("../../assets/images/workout/male-bodyweight-incline-pushup-front.gif")}
-            className="w-full h-64 mb-4 border-4 border-pink-700"
-            resizeMode="contain"
-          />
-          <Image
-            source={require("../../assets/images/workout/male-bodyweight-incline-pushup-side.gif")}
-            className="w-full h-64 mb-4 border-4 border-pink-700"
-            resizeMode="contain"
-          />
-          <Text className="text-white text-lg mb-4">
-            1. Stand facing bench or sturdy elevated platform.
-          </Text>
-          <Text className="text-white text-lg mb-4">
-            2. Place hands on edge of bench or platform, slightly wider than
-            shoulder width.
-          </Text>
-          <Text className="text-white text-lg mb-4">
-            3. Slowly lower your body until your chest almost touches the bench.
-          </Text>
-          <Text className="text-white text-lg mb-4">
-            4. Push body up until arms are extended.
-          </Text>
-        </View>
-
         <View className="mb-8">
           <Text className="text-2xl font-bold text-white text-center shadow-md mb-4">
             Dumbbells Incline Chest Flys

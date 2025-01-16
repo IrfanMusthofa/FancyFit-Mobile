@@ -7,9 +7,9 @@ const workoutsData = [
   "Biceps",
   "Calves",
   "Chest",
-  "Forearms",
-  "Glutes",
-  "Harmstrings",
+  "Lowerback",
+  "Obliques",
+  "Traps",
   "Triceps",
 ];
 
@@ -18,9 +18,9 @@ const workoutPages = [
   "biceps",
   "calves",
   "chest",
-  "forearms",
-  "glutes",
-  "hamstrings",
+  "lowerback",
+  "obliques",
+  "traps",
   "triceps",
 ];
 
