@@ -5,8 +5,8 @@ import "react-native-reanimated";
 import SplashScreen from "./SplashScreen";
 import "@/global.css";
 import { Stack } from "expo-router";
-import { SafeAreaView } from "react-native-safe-area-context";
-import { Text, View } from "react-native";
+import { ClerkProvider, ClerkLoaded } from "@clerk/clerk-expo";
+import { tokenCache } from "./cache";
 
 export {
   // Catch any errors thrown by the Layout component.
@@ -18,6 +18,12 @@ export default function RootLayout() {
     SpaceMono: require("../assets/fonts/SpaceMono-Regular.ttf"),
     ...FontAwesome.font,
   });
+
+  const publishableKey = process.env.EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY;
+
+  if (!publishableKey) {
+    throw new Error("Add EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY to your .env file");
+  }
 
   // Expo Router uses Error Boundaries to catch errors in the navigation tree.
   useEffect(() => {
@@ -39,7 +45,11 @@ export default function RootLayout() {
 
 function RootLayoutNav() {
   const [loading, setLoading] = useState(true);
+  const publishableKey = process.env.EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY;
 
+  if (!publishableKey) {
+    throw new Error("Add EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY to your .env file");
+  }
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
@@ -49,11 +59,15 @@ function RootLayoutNav() {
   return loading ? (
     <SplashScreen />
   ) : (
-    <Stack>
-      <Stack.Screen
-        name="index"
-        options={{ headerShown: true, title: "Homepage" }}
-      />
-    </Stack>
+    <ClerkProvider tokenCache={tokenCache} publishableKey={publishableKey}>
+      <ClerkLoaded>
+        <Stack>
+          <Stack.Screen
+            name="index"
+            options={{ headerShown: true, title: "Homepage" }}
+          />
+        </Stack>
+      </ClerkLoaded>
+    </ClerkProvider>
   );
 }
