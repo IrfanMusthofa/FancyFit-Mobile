@@ -20,23 +20,22 @@ export default function Traps() {
           <Text className="text-xl font-semibold text-white text-center shadow-md mb-4">
             Difficulty: Beginner
           </Text>
-          <View className="flex flex-row justify-center gap-4 mb-4">
-            <Image
-              source={require("../../assets/images/workout/male-dumbbell-shrug-front.gif")}
-              className="w-1/2 h-64 border-4 border-pink-700"
-              resizeMode="contain"
-            />
-            <Image
-              source={require("../../assets/images/workout/male-dumbbell-shrug-side.gif")}
-              className="w-1/2 h-64 border-4 border-pink-700"
-              resizeMode="contain"
-            />
-          </View>
-          <Text className="text-white text-lg mb-4">
-            1. Stand tall with two dumbbells. Pull your shoulder blades up. Give
-            a one second squeeze at the top.
-          </Text>
+
+          <Image
+            source={require("../../assets/images/workout/male-dumbbell-shrug-front.gif")}
+            className="w-full mb-4 h-64 border-4 border-pink-700"
+            resizeMode="contain"
+          />
+          <Image
+            source={require("../../assets/images/workout/male-dumbbell-shrug-side.gif")}
+            className="w-full mb-4 h-64 border-4 border-pink-700"
+            resizeMode="contain"
+          />
         </View>
+        <Text className="text-white text-lg mb-4">
+          1. Stand tall with two dumbbells. Pull your shoulder blades up. Give a
+          one second squeeze at the top.
+        </Text>
 
         <View className="mb-8">
           <Text className="text-2xl font-bold text-white text-center shadow-md mb-4">
@@ -45,18 +44,16 @@ export default function Traps() {
           <Text className="text-xl font-semibold text-white text-center shadow-md mb-4">
             Difficulty: Beginner
           </Text>
-          <View className="flex flex-row justify-center gap-4 mb-4">
-            <Image
-              source={require("../../assets/images/workout/male-dumbbell-seated-shrug-front.gif")}
-              className="w-1/2 h-64 border-4 border-pink-700"
-              resizeMode="contain"
-            />
-            <Image
-              source={require("../../assets/images/workout/male-dumbbell-seated-shrug-side.gif")}
-              className="w-1/2 h-64 border-4 border-pink-700"
-              resizeMode="contain"
-            />
-          </View>
+          <Image
+            source={require("../../assets/images/workout/male-dumbbell-seated-shrug-front.gif")}
+            className="w-full mb-4 h-64 border-4 border-pink-700"
+            resizeMode="contain"
+          />
+          <Image
+            source={require("../../assets/images/workout/male-dumbbell-seated-shrug-side.gif")}
+            className="w-full mb-4 h-64 border-4 border-pink-700"
+            resizeMode="contain"
+          />
           <Text className="text-white text-lg mb-4">
             1. Sit on a bench with dumbbells in both hands, palms facing your
             body, back straight.
@@ -69,7 +66,6 @@ export default function Traps() {
             3. Slowly lower your shoulders back to starting position.
           </Text>
         </View>
-
         <View className="mb-8">
           <Text className="text-2xl font-bold text-white text-center shadow-md mb-4">
             Barbell Upright Row
@@ -77,18 +73,17 @@ export default function Traps() {
           <Text className="text-xl font-semibold text-white text-center shadow-md mb-4">
             Difficulty: Advanced
           </Text>
-          <View className="flex flex-row justify-center gap-4 mb-4">
-            <Image
-              source={require("../../assets/images/workout/male-barbell-upright-row-front_3ROsKgm.gif")}
-              className="w-1/2 h-64 border-4 border-pink-700"
-              resizeMode="contain"
-            />
-            <Image
-              source={require("../../assets/images/workout/male-barbell-upright-row-side_NBzD3il.gif")}
-              className="w-1/2 h-64 border-4 border-pink-700"
-              resizeMode="contain"
-            />
-          </View>
+
+          <Image
+            source={require("../../assets/images/workout/male-barbell-upright-row-front_3ROsKgm.gif")}
+            className="w-full mb-4 h-64 border-4 border-pink-700"
+            resizeMode="contain"
+          />
+          <Image
+            source={require("../../assets/images/workout/male-barbell-upright-row-side_NBzD3il.gif")}
+            className="w-full mb-4 h-64 border-4 border-pink-700"
+            resizeMode="contain"
+          />
           <Text className="text-white text-lg mb-4">
             1. Take a double overhand roughly shoulder width grip.
           </Text>

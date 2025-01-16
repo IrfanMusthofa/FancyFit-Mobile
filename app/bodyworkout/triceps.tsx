@@ -20,18 +20,16 @@ export default function Triceps() {
           <Text className="text-xl font-semibold text-white text-center shadow-md mb-4">
             Difficulty: Intermediate
           </Text>
-          <View className="flex flex-row justify-center gap-4 mb-4">
-            <Image
-              source={require("../../assets/images/workout/male-dumbbell-overhead-tricep-extension-front.gif")}
-              className="w-1/2 h-64 border-4 border-pink-700"
-              resizeMode="contain"
-            />
-            <Image
-              source={require("../../assets/images/workout/male-dumbbell-overhead-tricep-extension-side.gif")}
-              className="w-1/2 h-64 border-4 border-pink-700"
-              resizeMode="contain"
-            />
-          </View>
+          <Image
+            source={require("../../assets/images/workout/male-dumbbell-overhead-tricep-extension-front.gif")}
+            className="w-full mb-4 h-64 border-4 border-pink-700"
+            resizeMode="contain"
+          />
+          <Image
+            source={require("../../assets/images/workout/male-dumbbell-overhead-tricep-extension-side.gif")}
+            className="w-full mb-4 h-64 border-4 border-pink-700"
+            resizeMode="contain"
+          />
           <Text className="text-white text-lg mb-4">
             1. Sit on the bench and hold a dumbbell with both hands. Raise the
             dumbbell overhead at arms length, holding the weight up with the
@@ -53,18 +51,16 @@ export default function Triceps() {
           <Text className="text-xl font-semibold text-white text-center shadow-md mb-4">
             Difficulty: Intermediate
           </Text>
-          <View className="flex flex-row justify-center gap-4 mb-4">
-            <Image
-              source={require("../../assets/images/workout/male-barbell-laying-tricep-extensions-front.gif")}
-              className="w-1/2 h-64 border-4 border-pink-700"
-              resizeMode="contain"
-            />
-            <Image
-              source={require("../../assets/images/workout/male-barbell-laying-tricep-extensions-side.gif")}
-              className="w-1/2 h-64 border-4 border-pink-700"
-              resizeMode="contain"
-            />
-          </View>
+          <Image
+            source={require("../../assets/images/workout/male-barbell-laying-tricep-extensions-front.gif")}
+            className="w-full mb-4 h-64 border-4 border-pink-700"
+            resizeMode="contain"
+          />
+          <Image
+            source={require("../../assets/images/workout/male-barbell-laying-tricep-extensions-side.gif")}
+            className="w-full mb-4 h-64 border-4 border-pink-700"
+            resizeMode="contain"
+          />
           <Text className="text-white text-lg mb-4">
             1. Lay on a flat bench while holding a barbell with a shoulder-width
             grip.
@@ -89,18 +85,16 @@ export default function Triceps() {
           <Text className="text-xl font-semibold text-white text-center shadow-md mb-4">
             Difficulty: Intermediate
           </Text>
-          <View className="flex flex-row justify-center gap-4 mb-4">
-            <Image
-              source={require("../../assets/images/workout/male-barbell-skullcrusher-front_qpHWUa8.gif")}
-              className="w-1/2 h-64 border-4 border-pink-700"
-              resizeMode="contain"
-            />
-            <Image
-              source={require("../../assets/images/workout/male-barbell-skullcrusher-side_B7Z6225.gif")}
-              className="w-1/2 h-64 border-4 border-pink-700"
-              resizeMode="contain"
-            />
-          </View>
+          <Image
+            source={require("../../assets/images/workout/male-barbell-skullcrusher-front_qpHWUa8.gif")}
+            className="w-full mb-4 h-64 border-4 border-pink-700"
+            resizeMode="contain"
+          />
+          <Image
+            source={require("../../assets/images/workout/male-barbell-skullcrusher-side_B7Z6225.gif")}
+            className="w-full mb-4 h-64 border-4 border-pink-700"
+            resizeMode="contain"
+          />
           <Text className="text-white text-lg mb-4">
             1. Take a shoulder width grip. Break at the elbows. Try to keep your
             elbows tucked in. Don't let them flare out.
