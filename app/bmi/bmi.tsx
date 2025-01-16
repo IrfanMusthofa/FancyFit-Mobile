@@ -70,7 +70,7 @@ const BmiCalculator = () => {
               onChangeText={setHeight}
             />
           </View>
-          <View className="flex flex-col gap-2">
+          <View className="flex flex-col mt-4 gap-2">
             <Text className="font-medium">Weight (kg)</Text>
             <TextInput
               className="w-full p-3 border border-primary-100 rounded"
